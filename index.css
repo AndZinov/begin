@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(92, 86, 86);
+}
+
+.conteiner{
+    max-width: 750px;
+    margin: auto;
+}
+
+.box h1{
+    text-align: center;
+    margin: 5px;
+}
+
+.img{
+    width: 250px;
+    margin-left: 15px;
+    border-radius: 8px;
+}
+
+.begin{
+    display: flex
+}
+
+.about{
+    width: 100%;
+    margin-left: 10px;
+    box-sizing: border-box; 
+}
+
+.about p{
+    padding: 5px;
+}
+
+.goals h2{
+    text-align: center;
+    margin: 10px;
+}
+
+.goals { 
+    padding-left: 25px;
+    border: 2px solid gray;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+    /* width: 80%; */
+}
+
+.goals ul li{
+    padding: 5px;
+}
+
+.study {
+    text-align: center;
+    border: 2px solid gray;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+.study table tbody tr td{
+   
+    padding-bottom: 10px;
+}
+
+.study table{
+    margin: auto;
+    padding: 10px;
+}
+
+.study table :last-child{
+    padding: 5 px;
+}
+
+.td{
+    padding-right: 80px;
+}
+
+.course{
+    text-align: center;
+    border: 2px solid gray;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+
+.course table{
+    margin: auto;
+    width: 60%;
+    border-collapse: collapse;
+}
+
+.course table thead tr th{
+    border-bottom: 1px solid black;
+}
+
+.course table tr th, td{
+    padding:10px;
+}
+
+.contacts{
+    text-align: center;
+    border: 2px solid gray;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    padding: 10px 0;
+}
+
+.contacts h2{
+    margin-bottom: 60px;
+}
+
+.contacts a{
+    text-decoration: none;
+    padding: 40px 10px 0px 10px;
+    margin-right: 60px; 
+    color: rgb(164, 122, 71);
+}
+
+a:visited{
+    color: gray;
+}
+
+a:active{
+    color: rgb(197, 143, 81);
+}
+
+.contacts a[href*="http"]{
+    background: url(https://img.icons8.com/ios/512/external-link.png) no-repeat center top;
+    background-size: 30px;
+}
+
+.contacts a:last-child{
+    margin-right: 0px;
+}
+
+a:hover{
+    color: rgb(228, 186, 70);
+    opacity: 80%;
+}
+
